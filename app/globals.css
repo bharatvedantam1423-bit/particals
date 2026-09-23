@@ -1,0 +1,27 @@
+@import "lenis/dist/lenis.css";
+
+:root {
+  --bg: #050914;
+  --fg: #eef4ff;
+  --muted: #8ea3c7;
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--font-sans), system-ui, -apple-system, "Segoe UI", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.after {
+  min-height: 80vh;
+  display: grid;
+  place-items: center;
+  padding: 64px 16px;
+  color: var(--muted);
+  text-align: center;
+}
